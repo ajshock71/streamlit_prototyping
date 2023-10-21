@@ -3,7 +3,7 @@ import graphviz
 import matplotlib
 
 st.warning("... goodbye world")
-st.table(dir(graphviz))
+st.table(dir(graphviz.Digraph))
 
 dg = graphviz.Digraph()
 st.write(help(dg.edge))
