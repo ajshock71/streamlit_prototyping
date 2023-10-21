@@ -2,6 +2,10 @@ import streamlit as st
 import graphviz
 import matplotlib
 
+import platform
+
+st.info(f"python version: {platform.python_version()}")
+
 st.warning("... goodbye world")
 st.table(dir(graphviz.Digraph))
 
